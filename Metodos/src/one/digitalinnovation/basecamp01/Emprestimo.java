@@ -1,4 +1,4 @@
-package one.digitalinnovation.basecamp;
+package one.digitalinnovation.basecamp01;
 
 public class Emprestimo {
 
