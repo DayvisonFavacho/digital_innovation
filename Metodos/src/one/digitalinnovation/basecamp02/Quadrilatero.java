@@ -1,6 +1,6 @@
 package one.digitalinnovation.basecamp02;
 
-public class Quadrilatero {
+/* public class Quadrilatero {
 
     public static void area(double lado) {
 
@@ -21,5 +21,33 @@ public class Quadrilatero {
 
         System.out.println("Área do losango:" + (diagonal1 * diagonal2)/2);
     }
+
+}
+*/
+
+public class Quadrilatero {
+
+    public static double area(double lado) {
+
+        return lado * lado;
+    }
+
+    public static double area(double lado1, double lado2) {
+
+       return lado1 * lado2;
+    }
+
+    public static double area(double baseMaior, double baseMenor, double altura) {
+
+       return ((baseMaior + baseMenor) * altura) /2;
+    }
+    
+    
+    public static void xpto() {
+    	System.out.println("Antes");
+    	return;
+    }
+
+    
 
 }
